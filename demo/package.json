@@ -1,0 +1,35 @@
+{
+    "name": "@n370/rolltip-demo",
+    "version": "1.0.0",
+    "description": "A demo website for the Rolltip library",
+    "homepage": "https://n370.github.io/rolltip",
+    "bugs": {
+        "homepage": "https://github.com/n370/rolltip/issues",
+        "email": "ama@n370.info"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/n370/rolltip.git",
+        "directory": "demo"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "develop": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "keywords": [
+        "website",
+        "parcel",
+        "react",
+        "postcss"
+    ],
+    "author": "Dylson Valente Neto <ama@n370.info> (https://n370.info/)",
+    "license": "MIT",
+    "dependencies": {
+        "parcel-bundler": "1.12.4",
+        "postcss-modules": "1.5.0",
+        "react": "16.13.0",
+        "react-dom": "16.13.0",
+        "rolltip": "file:../"
+    }
+}

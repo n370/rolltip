@@ -1,0 +1,47 @@
+{
+    "name": "@n370/rolltip",
+    "version": "0.1.0",
+    "description": "Yet another tooltip react component",
+    "homepage": "https://n370.github.io/rolltip",
+    "bugs": {
+        "homepage": "https://github.com/n370/rolltip/issues",
+        "email": "ama@n370.info"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/n370/rolltip.git"
+    },
+    "main": "dist/bundle.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rollup --config",
+        "develop": "rollup --config --watch",
+        "prepare": "npm run build"
+    },
+    "keywords": [
+        "tooltip",
+        "react",
+        "component",
+        "rollup"
+    ],
+    "author": "Dylson Valente Neto <ama@n370.info> (https://n370.info/)",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "7.8.7",
+        "@babel/preset-react": "7.8.3",
+        "autoprefixer": "9.7.4",
+        "node-sass": "4.13.1",
+        "rollup": "2.0.2",
+        "rollup-plugin-analyzer": "3.2.2",
+        "rollup-plugin-babel": "4.4.0",
+        "rollup-plugin-eslint": "7.0.0",
+        "rollup-plugin-postcss": "2.4.1",
+        "babel-eslint": "10.1.0",
+        "eslint-plugin-babel": "5.3.0",
+        "prettier": "1.19.1"
+    }
+}

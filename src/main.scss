@@ -1,0 +1,18 @@
+.main {
+    position: relative;
+}
+
+.target {
+    top: 0;
+    left: 0;
+}
+
+.tooltip {
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+}

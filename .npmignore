@@ -1,0 +1,11 @@
+.github/
+.vscode/
+.editorconfig
+.eslintignore
+.babelrc.json
+.eslintrc.json
+.prettierrc.json
+
+demo/
+src/
+rollup.config.js
