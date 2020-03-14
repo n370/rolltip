@@ -15,7 +15,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "develop": "parcel src/index.html",
-        "build": "parcel build src/index.html"
+        "build": "parcel build src/index.html",
+        "postbuild": "ncp src/static/ dist/ --filter '**/*.*'"
     },
     "keywords": [
         "website",
@@ -26,6 +27,7 @@
     "author": "Dylson Valente Neto <ama@n370.info> (https://n370.info/)",
     "license": "MIT",
     "dependencies": {
+        "ncp": "2.0.0",
         "parcel-bundler": "1.12.4",
         "postcss-modules": "1.5.0",
         "react": "16.13.0",
