@@ -21,4 +21,4 @@ module.exports={main:"_main_b8112",row:"_row_b8112",target:"_target_b8112",conte
 },{"react":"n8MK","rolltip":"kX7r","./App.css":"EQHX"}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=require("react-dom"),t=u(require("./App.js"));function u(e){return e&&e.__esModule?e:{default:e}}(0,r.render)(e.default.createElement(t.default,null),document.querySelector("div[data-react-root]"));
 },{"react":"n8MK","react-dom":"NKHc","./App.js":"lY9v"}]},{},["Focm"], null)
-//# sourceMappingURL=rolltip/src.6dc9873e.js.map
+//# sourceMappingURL=/src.6dc9873e.js.map
