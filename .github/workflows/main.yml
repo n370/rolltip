@@ -1,4 +1,4 @@
-name: Demo
+name: Publish demo to GH Pages
 on:
     push:
         branches:
@@ -10,13 +10,22 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v1
 
+            - name: Setup Node.js
+              uses: actions/setup-node@v2
+              with:
+                  node-version: '14'
+                  check-latest: true
+
             - name: Build
               run: |
+                  node -v
+                  npm -v
+                  npm i -g npm
+                  npm -v
                   npm install
                   npm run build
-                  cd demo
-                  npm install
-                  npm run build
+                  npm --prefix=demo install
+                  npm --prefix=demo run build
 
             - name: Deploy
               uses: JamesIves/github-pages-deploy-action@releases/v3

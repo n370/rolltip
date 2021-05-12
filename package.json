@@ -1,6 +1,6 @@
 {
     "name": "@n370/rolltip",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Yet another tooltip react component",
     "homepage": "https://n370.github.io/rolltip",
     "bugs": {
@@ -27,21 +27,23 @@
     "author": "Dylson Valente Neto <ama@n370.info> (https://n370.info/)",
     "license": "MIT",
     "peerDependencies": {
-        "react": "^16.0.0",
-        "react-dom": "^16.0.0"
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
     },
     "devDependencies": {
-        "@babel/core": "7.8.7",
-        "@babel/preset-react": "7.8.3",
-        "autoprefixer": "9.7.4",
-        "node-sass": "4.13.1",
-        "rollup": "2.0.2",
-        "rollup-plugin-analyzer": "3.2.2",
+        "@babel/core": "7.14.0",
+        "@babel/preset-react": "7.13.13",
+        "autoprefixer": "10.2.5",
+        "babel-eslint": "10.1.0",
+        "eslint": "7.26.0",
+        "eslint-plugin-babel": "5.3.1",
+        "node-sass": "6.0.0",
+        "postcss": "8.2.15",
+        "prettier": "2.3.0",
+        "rollup": "2.47.0",
+        "rollup-plugin-analyzer": "4.0.0",
         "rollup-plugin-babel": "4.4.0",
         "rollup-plugin-eslint": "7.0.0",
-        "rollup-plugin-postcss": "2.4.1",
-        "babel-eslint": "10.1.0",
-        "eslint-plugin-babel": "5.3.0",
-        "prettier": "1.19.1"
+        "rollup-plugin-postcss": "4.0.0"
     }
 }

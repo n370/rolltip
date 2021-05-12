@@ -14,7 +14,7 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "develop": "parcel src/index.html",
+        "develop": "parcel serve src/index.html",
         "build": "parcel build --public-url /rolltip/ src/index.html",
         "postbuild": "ncp src/static/ dist/ --filter '**/*.*'"
     },
@@ -28,10 +28,10 @@
     "license": "MIT",
     "dependencies": {
         "ncp": "2.0.0",
-        "parcel-bundler": "1.12.4",
-        "postcss-modules": "1.5.0",
-        "react": "16.13.0",
-        "react-dom": "16.13.0",
+        "parcel": "2.0.0-beta.2",
+        "postcss": "8.2.15",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
         "rolltip": "file:../"
     }
 }
