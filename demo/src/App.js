@@ -1,6 +1,6 @@
 import React from 'react';
-import Rolltip from 'rolltip';
-import { row, main, target, content } from './App.css';
+import Rolltip from '@n370/rolltip';
+import { row, main, target, content } from './App.module.css';
 
 export default () => {
     const spacing = '10px';

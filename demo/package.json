@@ -15,6 +15,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "develop": "parcel serve src/index.html",
+        "serve": "npm run build:local && http-server ./dist",
+        "build:local": "parcel build src/index.html",
         "build": "parcel build --public-url /rolltip/ src/index.html",
         "postbuild": "ncp src/static/ dist/ --filter '**/*.*'"
     },
@@ -27,11 +29,14 @@
     "author": "Dylson Valente Neto <ama@n370.info> (https://n370.info/)",
     "license": "MIT",
     "dependencies": {
+        "@n370/rolltip": "file:../",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "http-server": "0.12.3",
         "ncp": "2.0.0",
         "parcel": "2.0.0-nightly.660",
-        "postcss": "8.2.15",
-        "react": "17.0.2",
-        "react-dom": "17.0.2",
-        "rolltip": "file:../"
+        "postcss": "8.2.15"
     }
 }
