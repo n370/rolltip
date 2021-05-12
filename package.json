@@ -27,12 +27,16 @@
     "author": "Dylson Valente Neto <ama@n370.info> (https://n370.info/)",
     "license": "MIT",
     "peerDependencies": {
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "react": "file:./demo/node_modules/react",
+        "react-dom": "file:./demo/node_modules/react-dom"
     },
     "devDependencies": {
         "@babel/core": "7.14.0",
+        "@babel/preset-env": "7.14.1",
         "@babel/preset-react": "7.13.13",
+        "@rollup/plugin-babel": "5.3.0",
+        "@rollup/plugin-eslint": "8.0.1",
+        "@rollup/plugin-node-resolve": "13.0.0",
         "autoprefixer": "10.2.5",
         "babel-eslint": "10.1.0",
         "eslint": "7.26.0",
@@ -42,8 +46,6 @@
         "prettier": "2.3.0",
         "rollup": "2.47.0",
         "rollup-plugin-analyzer": "4.0.0",
-        "rollup-plugin-babel": "4.4.0",
-        "rollup-plugin-eslint": "7.0.0",
         "rollup-plugin-postcss": "4.0.0"
     }
 }
